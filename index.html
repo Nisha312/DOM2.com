@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+<li>1.lorem</li>
+<li id="checck1">2.css</li>
+<li>3.Html</li>
+<li>4.java</li>
+    </ul>
+    <ul  class="abc" id="list2">
+        <li>1.lorem</li>
+        <li id="checck1">2.css</li>
+        <li>3.Html</li>
+        <li>4.java</li>
+            </ul>
+<div id="box"> 
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+<p>Lorem ipsum dolor sit.</p>
+<h1>Lorem ipsum dolor sit amet.</h1>
+<p>Lorem ipsum dolor sit.</p>
+</div>
+    <script>
+       // let tag=document.createElement("li");
+       // let text=document.createTextNode("this is li tag");
+       // tag.append(text);
+       // console.log(tag);
+       //let taeget=document.getElementById("box");
+       //taeget.removeChild(target.children[1]);
+      // let target=document.getElementById("list").children[1];
+      // let cpyele=target.childNode(false);
+      // console.log(cpyele);
+//let target=document.getElementById("box");
+//let data=document.getElementById("check1");
+//let check=target.contains(data);
+//let check=target.hasAttribute("class")
+let target=document.getElementById("list").children[0];
+let target2=document.getElementById("list2").children[0];
+let check=target.isEqualNode(target);
+
+console.log(check);
+
+
+
+
+
+    </script>
+</body>
+</html>
